@@ -11,13 +11,13 @@ const Layout = ({ children }) => {
           {/* Theta logo */}
           <Box sx={{ flexGrow: 1 }}>
             <Link to="/">
-              <img src={thetaLogo} alt="Theta Logo" style={{ height: 40 }} /> {/* Adjust the height as needed */}
+              <img src={thetaLogo} alt="Theta Logo" style={{ height: 40 }} /> 
             </Link>
           </Box>
           <Button color="inherit" component={Link} to="/">Home</Button>
           <Button color="inherit" href='https://docs.theta-lang.org'>Docs</Button>
           <Button color='inherit' href='https://dev.theta-lang.org'>Contribute</Button>
-          <Button color="inherit" href='https://discord.gg/mzWgbhGQ6C"'>Discord</Button>
+          <Button color="inherit" href='https://discord.gg/mzWgbhGQ6C'>Discord</Button>
           <Button color="inherit" href="https://github.com/ThetaLang/Theta">GitHub</Button>
         </Toolbar>
       </AppBar>
